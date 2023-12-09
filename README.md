@@ -1,6 +1,6 @@
-# Child theme of Future2021
+# Future2021 Child Theme
 
-This is a Child theme of Future2021.
+This is a child theme of Future2021.
 
 ## Installation
 
