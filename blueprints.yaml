@@ -1,15 +1,15 @@
-name: Future 2021 Child
-slug: future2021_child
+name: Future 2021
+slug: future2021
 type: theme
-version: 1.2.3
+version: 1.2.5
 description: Grav Future Imperfect by HTML5 UP (Version 2021)
 icon:  microchip
 author:
   name: Pedro Moreno
-  email: webmaster@juanvillen.es
+  email: pmoreno@pmdesign.dev
   url: 
 homepage: https://github.com/pmoreno-rodriguez/grav-theme-future2021
-demo: http://future.juanvillen.es
+demo: https://future2021.pmdesign.dev
 keywords: future imperfect, html5up, theme, core, modern, fast, responsive, html5, css3
 bugs: https://github.com/pmoreno-rodriguez/grav-theme-future2021/issues
 license: CC-BY-3.0
@@ -94,6 +94,16 @@ form:
           multiple: false
           accept:
             - image/*
+        
+        type_logo_header:
+          type: radio
+          label: FUTURE.ADMIN.THEME.TYPE_LOGO_HEADER
+          help: FUTURE.ADMIN.THEME.TYPE_LOGO_HEADER_HELP
+          default: text
+          options:
+              image: FUTURE.ADMIN.THEME.TYPE_LOGO_HEADER_IMAGE
+              text: FUTURE.ADMIN.THEME.TYPE_LOGO_HEADER_TEXT
+              both: FUTURE.ADMIN.THEME.TYPE_LOGO_HEADER_BOTH
 
         slogan:
           type: text
